@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+
+}
+
+#box1 {
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+}
+#box2 {
+    background-color: lightseagreen;
+    height: 300px;
+    width: 300px;
+}
+#box3 {
+    background-color: royalblue;
+    height: 300px;
+    width: 300px;
+}
+
+#nav{
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+#part2{
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
