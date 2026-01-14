@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cursor{
+    height: 15px;
+    width: 15px;
+    background-color: #d1ff71;
+    border-radius: 50%;
+    position: fixed;
+}
+
+#image{
+    background-color: red;
+    width:60vw ;
+    height: 40vh;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+}
