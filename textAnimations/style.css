@@ -18,3 +18,12 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+h1{
+    font-size: 100px;
+    background-color: rgb(255, 32, 32);
+}
+
+h1 span{
+    display: inline-block;
+}
