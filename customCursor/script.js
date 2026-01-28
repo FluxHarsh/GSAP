@@ -9,6 +9,7 @@ main.addEventListener("mousemove", function (dets) {
         y: dets.y + 15,
         duration: 0.5,
         // ease:"back.out"
+        
     })
 })
 
